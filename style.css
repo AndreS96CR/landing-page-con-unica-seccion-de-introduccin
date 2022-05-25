@@ -40,7 +40,7 @@ body {
     height: 30rem;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    align-items: center;
     background-color:hsl(257, 40%, 49%) ;
     padding: 2rem 4rem;
 }
@@ -56,4 +56,13 @@ body {
     color: white;
     font-size: 1.2rem;
     text-align: center;
+}
+
+.text-container button {
+    height: 3.2rem;
+    width: 16rem;
+    color:hsl(257, 40%, 49%) ;
+    border-radius: 2rem;
+    border: none;
+    margin-top: 2rem;
 }
